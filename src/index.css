@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-classname {
+  display: flex;
+}
+.my-classname > * {
+  display: flex;
+}
